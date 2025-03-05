@@ -1,0 +1,84 @@
+body{
+background-color:black;
+color:aqua}
+
+#title
+        {
+          padding:20px 10px;
+          color:black;
+          background-color:aqua;
+          display:flex;
+          place-content:center;
+}
+
+.centerInfo
+{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  height:100vh
+}
+
+.itemButton
+{
+ background-color:aqua;
+  color:blue;
+  border-radius:10px;
+  padding:4px 10px;
+  transition: 0.3s;
+}
+
+.itemButton:hover{
+ color:aqua;
+  background-color:blue;
+}
+
+#deleteButton
+{
+ background-color:aqua;
+  color:blue;
+  padding:7px 7px;
+  border-radius:17px;
+  transition: 0.3s;
+  margin-right:400px;
+}
+
+#deleteButton:hover{
+  color:aqua;
+  background-color:blue;
+
+}
+
+
+.container
+{
+  display:flex;
+  
+}
+.container input{
+  flex:1;
+  padding:6px;
+}
+.listItem
+{
+  display:flex;
+  width:120%;
+}
+#itemName{
+  flex:1;
+  padding: 10px 5px;
+}
+
+#checked
+{
+  color:red;
+}
+
+
+
+
+
+
+
+
